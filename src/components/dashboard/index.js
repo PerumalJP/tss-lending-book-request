@@ -3,7 +3,8 @@ const Dashboard = ()=>{
 
     return(
         <div>
-            Dashboard
+            <div>Navbar</div>
+            <div>Content</div>
         </div>
     )
 }

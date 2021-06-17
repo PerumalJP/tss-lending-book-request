@@ -5,21 +5,22 @@ import Login from './components/login';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Dashboard from './components/dashboard';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="app-container">
-      
-      {/* <header className="app-header">
-        Lending books
-      </header> */}
 
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Dashboard} />
-          <Route exact path="/login" component={Login} />
-        </Switch>
-      </Router>
+      {/* <Header /> */}
+
+      <div className="app-content">
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route exact path="/login" component={Login} />
+          </Switch>
+        </Router>
+      </div>
 
     </div>
   );

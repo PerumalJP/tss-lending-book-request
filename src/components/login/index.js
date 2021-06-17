@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 const Login = () => {
 
     return (
-        <Card style={{ width: '390px', height: '350px' }} className="m-auto">
+        <Card style={{ width: '390px', height: 'auto' }} className="m-auto">
             <Card.Img style={{ height: '56px' }} variant="top" src="tss-logo.png" />
             <Card.Header className="text-center">LENDING BOOKS REQUEST APPROVAL</Card.Header>
             <Card.Body>
@@ -21,7 +21,7 @@ const Login = () => {
                             Username
                         </Form.Label>
                         <Col sm={8}>
-                            <Form.Control type="text" placeholder="Username" />
+                            <Form.Control autoFocus="true" type="text" placeholder="Username" />
                         </Col>
                     </Form.Group>
 
@@ -36,7 +36,7 @@ const Login = () => {
                     <Col className="text-center">
                         <Button variant="primary">Submit</Button>
                     </Col>
-                    <Col >
+                    <Col className="mt-4">
                         <Button variant="link">Forgot Password?</Button>
                         <Button variant="link">Change Password?</Button>
                     </Col>

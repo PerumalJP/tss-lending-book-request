@@ -4,6 +4,12 @@
   flex-direction: column;
 }
 
+.app-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
 .mandatory::after {
   content: ' *';
   color: red;
