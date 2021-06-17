@@ -6,7 +6,7 @@ const Header = () => {
         <div className="app-header">
             <header>
                 <img className="app-logo" src="tss-logo.png" alt="logo" />
-                <div>LENDING BOOKS REQUEST APPROVAL</div>
+                <h5>LENDING BOOKS REQUEST APPROVAL</h5>
                 <div>|||</div>
             </header>
         </div>

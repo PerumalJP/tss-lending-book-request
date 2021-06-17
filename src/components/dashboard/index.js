@@ -2,8 +2,8 @@
 const Dashboard = ()=>{
 
     return(
-        <div>
-            <div>Navbar</div>
+        <div className="app-page">
+            
             <div>Content</div>
         </div>
     )

@@ -6,8 +6,36 @@
 
 .app-content {
   display: flex;
-  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.nav-bar {
+  width: 220px;
+  background: #086A87;
+}
+
+.nav-bar .list-group-item {
+  background: #086A87;
+}
+
+/*  */
+
+.nav-bar a {
+  color: white;
+}
+
+.nav-bar a:hover {
+  color: white;
+}
+
+.app-page {
+  background: #FAFAFA;
+  display: flex;
   flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  padding: 6px;
 }
 
 .mandatory::after {
