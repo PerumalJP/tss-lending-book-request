@@ -42,3 +42,8 @@
   content: ' *';
   color: red;
 }
+
+.nav-bar .active {
+  color: lightgreen;
+  text-decoration: underline;
+}
