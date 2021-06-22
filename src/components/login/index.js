@@ -5,8 +5,16 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useContext } from 'react';
+import { AppContext } from '../../appContext';
 
 const Login = () => {
+
+    const { setUser } = useContext(AppContext);
+    const handleLogin = () => {
+        localStorage.setItem('isLoggedIn', true);
+        setUser({ isLoggedIn: true });
+    }
 
     return (
         <Card style={{ width: '390px', height: 'auto' }} className="m-auto">
@@ -21,7 +29,7 @@ const Login = () => {
                             Username
                         </Form.Label>
                         <Col sm={8}>
-                            <Form.Control autoFocus="true" type="text" placeholder="Username" />
+                            <Form.Control autoFocus={true} type="text" placeholder="Username" />
                         </Col>
                     </Form.Group>
 
@@ -34,7 +42,7 @@ const Login = () => {
                         </Col>
                     </Form.Group>
                     <Col className="text-center">
-                        <Button variant="primary">Submit</Button>
+                        <Button variant="primary" onClick={handleLogin}>Submit</Button>
                     </Col>
                     <Col className="mt-4">
                         <Button variant="link">Forgot Password?</Button>
