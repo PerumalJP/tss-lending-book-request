@@ -1,25 +1,25 @@
 import ListGroup from 'react-bootstrap/ListGroup';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <nav className="nav-bar">
             <ListGroup variant="flush">
                 <ListGroup.Item>
-                    <Link to="/dashboard">Dashboard</Link>
+                    <NavLink to="/dashboard">Dashboard</NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <Link to="/userType">User Type</Link>
+                    <NavLink to="/userType">User Type</NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <Link to="/userMaster">User Master</Link>
+                    <NavLink to="/userMaster">User Master</NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <Link to="/booksMaster">Books Master</Link>
+                    <NavLink to="/booksMaster">Books Master</NavLink>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                    <Link to="/author">Author</Link>
+                    <NavLink to="/author">Author</NavLink>
                 </ListGroup.Item>
             </ListGroup>
         </nav>
