@@ -1,10 +1,33 @@
+import './index.css';
 
-const Dashboard = ()=>{
+import { Button, Badge } from 'react-bootstrap';
 
-    return(
+const Dashboard = () => {
+
+    return (
         <div className="app-page">
-            
-            <div>Content</div>
+
+            <div className="status-panel">
+                <div className="status-panel-item">
+                    New Requests
+                    <h1>9</h1>
+                </div>
+
+                <div className="status-panel-item">
+                    Pending Requests
+                    <h1>0</h1>
+                </div>
+
+                <div className="status-panel-item">
+                    Book Returns
+                    <h1>2</h1>
+                </div>
+
+                <div className="status-panel-item">
+                    Books Available
+                    <h1>120</h1>
+                </div>
+            </div>
         </div>
     )
 }
