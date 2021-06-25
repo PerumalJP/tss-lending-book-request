@@ -18,7 +18,7 @@ const Login = () => {
 
     return (
         <Card style={{ width: '390px', height: 'auto' }} className="m-auto">
-            <Card.Img style={{ height: '56px' }} variant="top" src="tss-logo.png" />
+            <Card.Img style={{ height: '56px' }} variant="top" src="./tss-logo.PNG" />
             <Card.Header className="text-center">LENDING BOOKS REQUEST APPROVAL</Card.Header>
             <Card.Body>
                 <Card.Title className="text-center">LOGIN</Card.Title>

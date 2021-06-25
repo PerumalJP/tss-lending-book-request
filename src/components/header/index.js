@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className="app-header">
             <header>
-                <img className="app-logo" src="tss-logo.png" alt="logo" />
+                <img className="app-logo" src="./tss-logo.PNG" alt="logo" />
                 <h5>LENDING BOOKS REQUEST APPROVAL</h5>
                 <div>
                     <Button variant="outline-light" onClick={handleLogout}>Logout</Button>
