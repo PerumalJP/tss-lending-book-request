@@ -1,5 +1,6 @@
 .status-panel {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .status-panel-item {
@@ -8,7 +9,7 @@
     padding: 6px;
     margin: 6px;
     border-radius: 4px;
-    flex: 1;
+    flex: 1 0 150px;
     display: flex;
     justify-content: space-between;
 }

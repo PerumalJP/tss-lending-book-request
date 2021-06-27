@@ -29,6 +29,39 @@
   color: white;
 }
 
+
+@media (max-width:575.98px) {
+  .app-header header {
+    padding-left: 6px;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  h5 {
+    font-size: 3vw !important;
+  }
+
+  .sm-hide {
+    display: none !important;
+  }
+  .app-logo {
+    
+    width: 120px !important;
+  }
+}
+
+@media (min-width:575.98px) {
+
+  .nav-bar {
+    display: block;
+  }
+
+  .sm-hide {
+    display: block !important;
+  }
+}
+
 .app-page {
   background: #FAFAFA;
   display: flex;

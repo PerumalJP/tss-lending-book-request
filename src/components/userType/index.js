@@ -56,7 +56,7 @@ const UserType = () => {
     return (
         <div className="app-page">
             <h4 className="text-center m-3">User Type</h4>
-            <Container>
+            <Container sm="false">
                 <Row className="justify-content-md-center">
                     <Col sm={8}>
 
@@ -85,9 +85,7 @@ const UserType = () => {
                         </Form>
                     </Col>
                 </Row>
-            </Container>
 
-            <Container>
                 <Row>
                     <Col sm={12}>
                         <Table bordered className="mt-4" size="sm">

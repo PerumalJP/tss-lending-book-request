@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <nav className="nav-bar">
+        <nav className="nav-bar .d-none">
             <ListGroup variant="flush">
                 <ListGroup.Item>
                     <NavLink to="/dashboard">Dashboard</NavLink>

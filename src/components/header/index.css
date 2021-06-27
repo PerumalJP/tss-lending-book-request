@@ -11,6 +11,6 @@ header {
 }
 
 .app-logo {
-    height: 58px;
+    height: auto;
     width: 220px;
 }

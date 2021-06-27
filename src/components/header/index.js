@@ -17,10 +17,12 @@ const Header = () => {
     return (
         <div className="app-header">
             <header>
-                <img className="app-logo" src="./tss-logo.PNG" alt="logo" />
-                <h5>LENDING BOOKS REQUEST APPROVAL</h5>
                 <div>
-                    <Button variant="outline-light" onClick={handleLogout}>Logout</Button>
+                    <img className="app-logo" src="./tss-logo.PNG" alt="logo" />
+                </div>
+                <h5 className="text-center mb-0">LENDING BOOKS REQUEST APPROVAL</h5>
+                <div>
+                    <Button variant="outline-light" size="sm" onClick={handleLogout}>Logout</Button>
                 </div>
             </header>
         </div>
